@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    background-color: #337ab7;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.hero button:hover {
+    background-color: #23527c;
+}
+
+.features {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features i {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom : 20px;
+}
+
+.testimonials p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.testimonials h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.circular-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the same height to make it a square */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image fits nicely within the circle */
+}
